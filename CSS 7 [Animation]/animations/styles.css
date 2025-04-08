@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+   
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+
+    animation-name: Aashish;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-direction: normal;
+
+    animation-fill-mode: both;
+
+    
+
+
+
+
+}
+
+@keyframes Aashish {
+    0%{
+        width: 212px;
+        border-color: aqua;
+    }
+    30%{
+        width: 35%;
+        border-color: var(yellow);
+    }
+
+    65%{
+        width: 70%;
+        background-color: #fff;
+    }
+
+    100%{
+        width: 100%;
+        border-color: blueviolet;
+    }
+}
+
+
+
+
+/* 
+@keyframes Aashish {
+    from{
+        width: 212px;
+
+    }
+    to{
+        width: 800px;
+    }
+} */
